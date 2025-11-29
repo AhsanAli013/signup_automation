@@ -11,16 +11,22 @@ Node.js (v16 or later) 👉 Download
 npm (v8 or later) (comes with Node.js)
 VS Code or another editor for writing and debugging tests
 Google Chrome (or preferred browser)
+
+
 2️⃣ Clone the Repository
 git clone https://github.com/yourusername/signup-automation.git
 cd signup-automation
+
+
 3️⃣ Install Dependencies
 npm install
 (If there are dependency conflicts, try:)
 
 rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
+
 🛠️ Project Structure
+
 signup-automation/
 │── node_modules/                 # Installed dependencies
 │── tests/                         # Contains all tests
@@ -39,29 +45,42 @@ signup-automation/
 │── package.json                     # Project dependencies and scripts
 │── tsconfig.json                    # TypeScript configuration
 │── README.md                        # This documentation
+
+
 🎯 How to Run Tests
+
 1️⃣ Run All Tests
 npm test
+
 2️⃣ Run a Single Scenario
 npx cucumber-js tests/features/signup.feature --tags "@debug"
+
 3️⃣ Run with Debug Logs
 DEBUG="pw:api" npm test
+
 4️⃣ Run Tests in Headed Mode
 npx playwright test --headed
+
 📊 Test Execution Results
 ✅ Execution Video: The complete test execution recording can be found in:
 📂 reports/TestsExecutionVideo.mp4
+
 📸 Test Result Screenshot: The screenshot of the latest test execution is available at:
 📂 reports/TestExecution.png
+
 🔥 Troubleshooting
+
 1️⃣ Dependencies Conflict
 If npm install fails, try:
 
 rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
+
 2️⃣ Playwright Issues
 npx playwright install --with-deps
+
 📌 Best Practices
+
 ✔ Use Page Object Model (POM) for test structure
 ✔ Add waitForSelector before interacting with elements
 ✔ Use headless mode for faster test execution
