@@ -7,7 +7,8 @@ Follow these steps to set up the project on your local machine.
 1️⃣ Prerequisites
 Ensure you have the following installed:
 
-Node.js (v16 or later) 👉 Download
+Node.js (v16 or later)
+👉 Download
 npm (v8 or later) (comes with Node.js)
 VS Code or another editor for writing and debugging tests
 Google Chrome (or preferred browser)
@@ -62,10 +63,12 @@ DEBUG="pw:api" npm test
 npx playwright test --headed
 
 📊 Test Execution Results
-✅ Execution Video: The complete test execution recording can be found in:
+✅ Execution Video: 
+The complete test execution recording can be found in:
 📂 reports/TestsExecutionVideo.mp4
 
-📸 Test Result Screenshot: The screenshot of the latest test execution is available at:
+📸 Test Result Screenshot:
+The screenshot of the latest test execution is available at:
 📂 reports/TestExecution.png
 
 🔥 Troubleshooting
@@ -94,6 +97,7 @@ Create a feature branch (git checkout -b feature-branch)
 Commit your changes (git commit -m "Add new feature")
 Push to the branch (git push origin feature-branch)
 Open a pull request
+
 📝 License
 This project is licensed under the MIT License - feel free to modify and use it as needed.
 
