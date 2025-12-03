@@ -29,22 +29,39 @@ npm install --legacy-peer-deps
 🛠️ Project Structure
 
 signup-automation/
+
 │── node_modules/                 # Installed dependencies
+
 │── tests/                         # Contains all tests
+
 │   ├── features/                  # Cucumber feature files
+
 │   │   ├── signup.feature          # Signup scenarios
+
 │   ├── step-definitions/           # Step definitions for Cucumber
+
 │   │   ├── signupSteps.ts          # Glue code for feature files
+
 │   ├── page-objects/               # Page Object Model (POM) files
+
 │   │   ├── signupPage.ts           # POM for signup page interactions
+
 │── playwright-report/              # Playwright test reports
+
 │── reports/                        # Cucumber test reports
+
 │   ├── TestsExecutionVideo.mp4     # Test execution recording
+
 │   ├── TestExecution.png           # Screenshot of test results
+
 │── .gitignore                      # Ignored files
+
 │── cucumber.js                     # Cucumber configuration file
+
 │── package.json                     # Project dependencies and scripts
+
 │── tsconfig.json                    # TypeScript configuration
+
 │── README.md                        # This documentation
 
 
